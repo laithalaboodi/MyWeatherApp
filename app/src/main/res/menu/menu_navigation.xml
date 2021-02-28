@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/navigation_view">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_weather"
+                    android:icon="@drawable/ic_today"
+                    android:title="@string/navigation_weather" />
+                <item
+                    android:id="@+id/navigation_weekly"
+                    android:icon="@drawable/ic_weekly"
+                    android:title="@string/navigation_weekly" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/navigation_control">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/navigation_setting"
+                    android:icon="@drawable/ic_setting"
+                    android:title="@string/navigation_setting" />
+                <item
+                    android:id="@+id/navigation_exit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="@string/navigation_exit" />
+            </group>
+        </menu>
+    </item>
+</menu>
